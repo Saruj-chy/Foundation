@@ -1,0 +1,92 @@
+html {
+  background-color: antiquewhite;
+}
+#site_title {
+  background: #4caf50;
+  height: 50px;
+  width: 400px;
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  padding-inline-start: 20px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  /* border-radius: 20px; */
+}
+.header_2{
+  text-align: center;
+  background: #4caf50;
+  padding: 10px;
+  font-size:20px;
+  color: white
+  }
+  #a1{
+    padding: 20px;
+    margin-right:100px;
+    color:white
+  }
+  #a1:link {
+  text-decoration: none;
+}
+   #a2{
+    padding: 20px;
+    margin-left:100px;
+  }
+
+ 
+
+  /* members details */
+#members_details {
+  text-align: center;
+  margin-top: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#members_details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  padding1 20px;
+  font-size: 20px;
+  text-align :center;
+}
+#members_details td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#members_details tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#members_details tr:hover {
+  background-color: #ddd;
+}
+
+/*       month's details  */
+
+.table-hover{
+  background-color: aliceblue;
+ width: auto;
+ margin: 10px;
+ margin-right: 20px;
+ padding: 10px;
+ text-align: center;
+
+}
+.table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.navbar_month{
+  margin-top:5;
+}

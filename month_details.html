@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <title>Saruj Personal Foundation</title>
+  <link rel="stylesheet" href="first.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100" >
+<!--          =====   start:     index.html           -->
+  <div><h1 id="site_title"> Saruj Personal foundation</h1></div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="members_details.html">Member </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="month_details.html">Month</a>
+        </li>
+        
+      
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!--          =====   End:     index.html           -->
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top navbar_month">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#January">January</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#February">February</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#March">March</a>
+    </li>
+  </ul>
+</nav>
+
+
+  <div id="January" class="table-responsive" >
+    <table class="table table-bordered table-striped table-hover"  style="text-align: center;">
+      <thead>
+        
+          <th  colspan="5">January</th>
+              
+      </thead>
+      <thead>
+        <tr>
+          <th>Serial</th>
+          <th>Member's Name</th>
+          <th> Amount </th>
+          <th>Mobile Number</th>
+          <th>Date</th>
+          
+        </tr>
+      </thead>
+      <tbody id="tableBodyJAN">
+      
+      </tbody>
+    </table>
+  </div>
+  <div id="February" class="table-responsive">
+    <table class="table table-bordered table-striped table-hover"  style="text-align: center;">
+      <thead >
+        
+          <th  colspan="5">February</th>
+              
+      </thead>
+      <thead>
+        <tr>
+          <th>Serial</th>
+          <th>Member's Name</th>
+          <th> Amount </th>
+          <th>Mobile Number</th>
+          <th>Date</th>
+          
+        </tr>
+      </thead>
+      <tbody id="tableBodyFEB">
+      
+      </tbody>
+    </table>
+  </div>
+  <div id="March" class="table-responsive">
+    <table class="table table-bordered table-striped table-hover"  style="text-align: center;">
+      <thead>
+        
+          <th  colspan="5">March</th>
+              
+      </thead>
+      <thead>
+        <tr>
+          <th>Serial</th>
+          <th>Member's Name</th>
+          <th> Amount </th>
+          <th>Mobile Number</th>
+          <th>Date</th>
+          
+        </tr>
+      </thead>
+      <tbody id="tableBodyMAR">
+      
+      </tbody>
+    </table>
+
+  </div>
+
+  <script src="month_details.js"></script>
+</body>
+</html>
